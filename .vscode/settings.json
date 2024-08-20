@@ -52,5 +52,5 @@
         "Temp/": true
     },
     "dotnet.preferCSharpExtension": true,
-    "dotnet.defaultSolution": "VECTOR Basics.sln"
+    "dotnet.defaultSolution": "VECTOR-Basics.sln"
 }
