@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: ec16c9eeb1071504bb3c65131344bedb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3147859329885448814
+    second: pokemon_0
+  - first:
+      213: 6596863143906629663
+    second: pokemon_0
+  - first:
+      213: 7123935764473397991
+    second: pokemon_1
+  - first:
+      213: -2342499992103388885
+    second: pokemon_2
+  - first:
+      213: -8809659649718491827
+    second: pokemon_3
+  - first:
+      213: -5920089530496084169
+    second: pokemon_4
+  - first:
+      213: 6572310444500722904
+    second: pokemon_5
+  - first:
+      213: -4199439238537012338
+    second: pokemon_6
+  - first:
+      213: 1176816032846386199
+    second: pokemon_7
+  - first:
+      213: -4723553396410307753
+    second: pokemon_8
+  - first:
+      213: 6661343384181799561
+    second: pokemon_9
+  - first:
+      213: -6082606818760701821
+    second: pokemon_10
+  - first:
+      213: -7519262982300487439
+    second: pokemon_11
+  - first:
+      213: 3581416219775226681
+    second: pokemon_12
+  - first:
+      213: 7557850204600403131
+    second: pokemon_13
+  - first:
+      213: -5851287884958056104
+    second: pokemon_14
+  - first:
+      213: 2327666983040487704
+    second: pokemon_15
+  - first:
+      213: -1723765504620374145
+    second: pokemon_16
+  - first:
+      213: 4113947496785881005
+    second: pokemon_17
+  - first:
+      213: 3940211155027284322
+    second: pokemon_18
+  - first:
+      213: -8510932896298243911
+    second: pokemon_19
+  - first:
+      213: 7733375635451025454
+    second: pokemon_20
+  - first:
+      213: -2220866695881273245
+    second: pokemon_21
+  - first:
+      213: -6995701174192068524
+    second: pokemon_22
+  - first:
+      213: 5588409102799361998
+    second: pokemon_23
+  - first:
+      213: -4967860054670957468
+    second: pokemon_24
+  - first:
+      213: -1435116185554708585
+    second: pokemon_25
+  - first:
+      213: -6882273868707780292
+    second: pokemon_26
+  - first:
+      213: 246890237519933148
+    second: pokemon_27
+  - first:
+      213: -5327440109980427013
+    second: pokemon_28
+  - first:
+      213: -145673813617042396
+    second: pokemon_29
+  - first:
+      213: -36506656812633307
+    second: pokemon_30
+  - first:
+      213: 9055516621766473722
+    second: pokemon_31
+  - first:
+      213: 2691636510197754984
+    second: pokemon_32
+  - first:
+      213: -250156260650964771
+    second: pokemon_33
+  - first:
+      213: -6004259029122084129
+    second: pokemon_34
+  - first:
+      213: -5476591344801750971
+    second: pokemon_35
+  - first:
+      213: 6779521153082119747
+    second: pokemon_36
+  - first:
+      213: 5065153912582522651
+    second: pokemon_37
+  - first:
+      213: 9188575563081854401
+    second: pokemon_38
+  - first:
+      213: 6887535698057534746
+    second: pokemon_39
+  - first:
+      213: 5162200790339594893
+    second: pokemon_40
+  - first:
+      213: 2226740471651882177
+    second: pokemon_41
+  - first:
+      213: 6840411629327888475
+    second: pokemon_42
+  - first:
+      213: 3291224914248320824
+    second: pokemon_43
+  - first:
+      213: -3623000931849840193
+    second: pokemon_44
+  - first:
+      213: -6364390302226214278
+    second: pokemon_45
+  - first:
+      213: -1182668688044083211
+    second: pokemon_46
+  - first:
+      213: -1756394457932480363
+    second: pokemon_47
+  - first:
+      213: -9142840961672691163
+    second: pokemon_48
+  - first:
+      213: -1635358022724593421
+    second: pokemon_49
+  - first:
+      213: -2114449654067649581
+    second: pokemon_50
+  - first:
+      213: 1959889727775386700
+    second: pokemon_51
+  - first:
+      213: 5200331996282452246
+    second: pokemon_52
+  - first:
+      213: 298711838914803386
+    second: pokemon_53
+  - first:
+      213: 5813610796429849949
+    second: pokemon_54
+  - first:
+      213: 7854770543471895620
+    second: pokemon_55
+  - first:
+      213: -931288870147771200
+    second: pokemon_56
+  - first:
+      213: 46617107801729226
+    second: pokemon_57
+  - first:
+      213: 1993061016234500902
+    second: pokemon_58
+  - first:
+      213: 7781830451349620883
+    second: pokemon_59
+  - first:
+      213: 6441305291141497223
+    second: pokemon_60
+  - first:
+      213: 38948135524047429
+    second: pokemon_61
+  - first:
+      213: -2387149740149657207
+    second: pokemon_62
+  - first:
+      213: 1416329914461371297
+    second: pokemon_63
+  - first:
+      213: 3781184326492769342
+    second: pokemon_64
+  - first:
+      213: 3986736236841282968
+    second: pokemon_65
+  - first:
+      213: 1834390237403940478
+    second: pokemon_66
+  - first:
+      213: 5108897860770713826
+    second: pokemon_67
+  - first:
+      213: 6345407626763087480
+    second: pokemon_68
+  - first:
+      213: 2425562863213779343
+    second: pokemon_69
+  - first:
+      213: -2032930912313106151
+    second: pokemon_70
+  - first:
+      213: -4879835812421572848
+    second: pokemon_71
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pokemon_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 297
+        width: 166
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18db64e314cc8b50800000000000000
+      internalID: 3147859329885448814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 30
+        width: 185
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2432465dd4dd260800000000000000
+      internalID: 7123935764473397991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 298
+        width: 163
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2972541ba4cd7fd0800000000000000
+      internalID: -2342499992103388885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 296
+        width: 162
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45ef62693dcdb580800000000000000
+      internalID: -8809659649718491827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 31
+        width: 191
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737954020fd97dda0800000000000000
+      internalID: -5920089530496084169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pokemon_1: 7123935764473397991
+      pokemon_0: 3147859329885448814
+      pokemon_2: -2342499992103388885
+      pokemon_3: -8809659649718491827
+      pokemon_4: -5920089530496084169
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

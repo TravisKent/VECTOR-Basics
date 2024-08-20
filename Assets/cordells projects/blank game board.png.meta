@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 60896139ea39ad04093b70bd27ab696c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3808298708544905544
+    second: blank game board_0
+  - first:
+      213: -99686581208969687
+    second: blank game board_1
+  - first:
+      213: 26397329725689572
+    second: blank game board_2
+  - first:
+      213: -47555717978476980
+    second: blank game board_3
+  - first:
+      213: -2819842697456351256
+    second: blank game board_4
+  - first:
+      213: -6100507825949587872
+    second: blank game board_5
+  - first:
+      213: -5154704001966962404
+    second: blank game board_6
+  - first:
+      213: 4398046822675955375
+    second: blank game board_7
+  - first:
+      213: 3181168236848442428
+    second: blank game board_8
+  - first:
+      213: 5019060647411297165
+    second: blank game board_9
+  - first:
+      213: 6605754883981746699
+    second: blank game board_10
+  - first:
+      213: -8768976470535065534
+    second: blank game board_11
+  - first:
+      213: 7095264451099508050
+    second: blank game board_12
+  - first:
+      213: 4661782341444779919
+    second: blank game board_13
+  - first:
+      213: -5439566083002124064
+    second: blank game board_14
+  - first:
+      213: 5837519268693349441
+    second: blank game board_15
+  - first:
+      213: 4354193003341500352
+    second: blank game board_16
+  - first:
+      213: 4877175347746990613
+    second: blank game board_17
+  - first:
+      213: 1366596016244928656
+    second: blank game board_18
+  - first:
+      213: -4307051844097707967
+    second: blank game board_19
+  - first:
+      213: -202356073138646599
+    second: blank game board_20
+  - first:
+      213: 5850551296990274185
+    second: blank game board_21
+  - first:
+      213: -8944630048571498253
+    second: blank game board_22
+  - first:
+      213: -279576498637326663
+    second: blank game board_23
+  - first:
+      213: 974399832396771411
+    second: blank game board_24
+  - first:
+      213: -2003376864119150159
+    second: blank game board_25
+  - first:
+      213: 3922019125530436580
+    second: blank game board_26
+  - first:
+      213: 1853698650752077871
+    second: blank game board_27
+  - first:
+      213: 3789340057206314507
+    second: blank game board_28
+  - first:
+      213: -3188749740026269023
+    second: blank game board_29
+  - first:
+      213: -7348031076737212740
+    second: blank game board_30
+  - first:
+      213: 8692146654750873040
+    second: blank game board_31
+  - first:
+      213: -8745671438563793442
+    second: blank game board_32
+  - first:
+      213: 5464000310274787180
+    second: blank game board_33
+  - first:
+      213: -5999785902297462254
+    second: blank game board_34
+  - first:
+      213: -2779321730861135871
+    second: blank game board_35
+  - first:
+      213: -3827001317207535562
+    second: blank game board_36
+  - first:
+      213: 8623917129239712621
+    second: blank game board_37
+  - first:
+      213: 5943260008499235549
+    second: blank game board_38
+  - first:
+      213: 6776496713663344023
+    second: blank game board_39
+  - first:
+      213: 7943424117940146783
+    second: blank game board_40
+  - first:
+      213: 6136915209971004339
+    second: blank game board_41
+  - first:
+      213: -7923537047721139699
+    second: blank game board_42
+  - first:
+      213: -586205476479572688
+    second: blank game board_43
+  - first:
+      213: -3284313478936595752
+    second: blank game board_44
+  - first:
+      213: -2494565218059692416
+    second: blank game board_45
+  - first:
+      213: -4928062974617046277
+    second: blank game board_46
+  - first:
+      213: 8594729082587779234
+    second: blank game board_47
+  - first:
+      213: -4609623220626591224
+    second: blank game board_48
+  - first:
+      213: 8326266597201204446
+    second: blank game board_49
+  - first:
+      213: 5843564837701237425
+    second: blank game board_50
+  - first:
+      213: -8998736044892838544
+    second: blank game board_51
+  - first:
+      213: -4130041475137293932
+    second: blank game board_52
+  - first:
+      213: -4971882038487837418
+    second: blank game board_53
+  - first:
+      213: -7956093178192241080
+    second: blank game board_54
+  - first:
+      213: 6372525103166889799
+    second: blank game board_55
+  - first:
+      213: 6352310106736334539
+    second: blank game board_56
+  - first:
+      213: 8804008089018384688
+    second: blank game board_57
+  - first:
+      213: 3064769081571223325
+    second: blank game board_58
+  - first:
+      213: -775201977910236833
+    second: blank game board_59
+  - first:
+      213: 5532054624269510988
+    second: blank game board_60
+  - first:
+      213: -4763021323514327922
+    second: blank game board_61
+  - first:
+      213: 7409050140591178400
+    second: blank game board_62
+  - first:
+      213: -6525719600810592975
+    second: blank game board_63
+  - first:
+      213: 8401689950287879034
+    second: blank game board_64
+  - first:
+      213: 8768349279808787244
+    second: blank game board_65
+  - first:
+      213: 7924905139140467332
+    second: blank game board_66
+  - first:
+      213: -873746442895084202
+    second: blank game board_67
+  - first:
+      213: -1794511254013414135
+    second: blank game board_68
+  - first:
+      213: 4224059675847225388
+    second: blank game board_69
+  - first:
+      213: 7752312273592907781
+    second: blank game board_70
+  - first:
+      213: -3435289749293037124
+    second: blank game board_71
+  - first:
+      213: -279505742812787377
+    second: blank game board_72
+  - first:
+      213: -2638864661517224071
+    second: blank game board_73
+  - first:
+      213: -4496820619853138780
+    second: blank game board_74
+  - first:
+      213: 2994990331871147741
+    second: blank game board_75
+  - first:
+      213: -4144706866599958693
+    second: blank game board_76
+  - first:
+      213: -3940496692630938330
+    second: blank game board_77
+  - first:
+      213: 2027773064202644400
+    second: blank game board_78
+  - first:
+      213: -4518502102920826277
+    second: blank game board_79
+  - first:
+      213: -757788797209722025
+    second: blank game board_80
+  - first:
+      213: -6818048535867482871
+    second: blank game board_81
+  - first:
+      213: -6970880530545286970
+    second: blank game board_82
+  - first:
+      213: 5962265321230715928
+    second: blank game board_83
+  - first:
+      213: 3647236482499045881
+    second: blank game board_84
+  - first:
+      213: 2317818049154910234
+    second: blank game board_85
+  - first:
+      213: -8431859525693944155
+    second: blank game board_86
+  - first:
+      213: 228988681734699663
+    second: blank game board_87
+  - first:
+      213: 5363489335655933055
+    second: blank game board_88
+  - first:
+      213: -9162135207503460729
+    second: blank game board_89
+  - first:
+      213: 2443264881302656720
+    second: blank game board_0
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blank game board_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 587
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d65b3ee67838e120800000000000000
+      internalID: 3808298708544905544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      blank game board_0: 3808298708544905544
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
