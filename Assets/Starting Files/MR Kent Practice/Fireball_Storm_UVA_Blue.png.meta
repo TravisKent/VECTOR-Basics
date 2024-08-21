@@ -3,7 +3,7 @@ guid: acf258705c47e6d4b8cf9fe374e6a5a3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -379,20 +386,19 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Fireball_Storm_UVA_Blue_0: -1096393906
-      Fireball_Storm_UVA_Blue_8: 1214681144
-      Fireball_Storm_UVA_Blue_9: -34234739
-      Fireball_Storm_UVA_Blue_5: 1904838933
-      Fireball_Storm_UVA_Blue_7: 176725101
       Fireball_Storm_UVA_Blue_1: -490942518
-      Fireball_Storm_UVA_Blue_6: -1483554215
+      Fireball_Storm_UVA_Blue_10: 1526438124
       Fireball_Storm_UVA_Blue_11: 567507007
+      Fireball_Storm_UVA_Blue_2: 1248219035
       Fireball_Storm_UVA_Blue_3: -1974147711
       Fireball_Storm_UVA_Blue_4: 2026389673
-      Fireball_Storm_UVA_Blue_10: 1526438124
-      Fireball_Storm_UVA_Blue_2: 1248219035
-  spritePackingTag: 
+      Fireball_Storm_UVA_Blue_5: 1904838933
+      Fireball_Storm_UVA_Blue_6: -1483554215
+      Fireball_Storm_UVA_Blue_7: 176725101
+      Fireball_Storm_UVA_Blue_8: 1214681144
+      Fireball_Storm_UVA_Blue_9: -34234739
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

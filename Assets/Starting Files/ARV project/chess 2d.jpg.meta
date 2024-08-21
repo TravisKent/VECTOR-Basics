@@ -39,7 +39,7 @@ TextureImporter:
       213: 7294643715420398548
     second: chess 2d_11
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -56,11 +56,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -99,6 +100,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -110,6 +113,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -122,6 +126,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -134,6 +139,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -146,6 +152,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -414,21 +421,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      chess 2d_4: -811821668707959764
-      chess 2d_7: -108575071399817101
-      chess 2d_11: 7294643715420398548
-      chess 2d_6: 3949257337871485401
-      chess 2d_8: 5408351285078697998
-      chess 2d_1: 1150500058821955267
-      chess 2d_2: 3906050777761360340
-      chess 2d_10: -4613471874996115004
-      chess 2d_9: -5460002153079650036
-      chess 2d_5: -7216891236576530860
-      chess 2d_3: 8104415242155012749
       chess 2d_0: -127049128260295665
-  spritePackingTag: 
+      chess 2d_1: 1150500058821955267
+      chess 2d_10: -4613471874996115004
+      chess 2d_11: 7294643715420398548
+      chess 2d_2: 3906050777761360340
+      chess 2d_3: 8104415242155012749
+      chess 2d_4: -811821668707959764
+      chess 2d_5: -7216891236576530860
+      chess 2d_6: 3949257337871485401
+      chess 2d_7: -108575071399817101
+      chess 2d_8: 5408351285078697998
+      chess 2d_9: -5460002153079650036
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
