@@ -1,23 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
+using System.Security.Cryptography.X509Certificates;
+using JetBrains.Annotations;
+using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Video;
 
-public class MKmouseController : MonoBehaviour
+public class EMmouseController : MonoBehaviour
 {
 
-    public GameObject card;
+
+    public GameObject Card;
     public GameObject objSelected = null;
 
      //list of game objects that will be used as snap points 
      public GameObject[] snapPoints;
+
      //variable to be used as a radial distance check for the snap points
      public float snapSensitivity = 2.0f;
 
      //variable that can be used for the z distance offset
      public float clipplaneOffset;
-
 
     // Start is called before the first frame update
     void Start()
@@ -32,8 +34,7 @@ public class MKmouseController : MonoBehaviour
           Ray newRay = Camera.main.ScreenPointToRay(Input.mousePosition);
           Debug.DrawRay(newRay.origin, newRay.direction*25, Color.green);
 
-
-          //code for getting left mouse button click
+          //code for getting left mouse click
           if(Input.GetMouseButtonDown(0))
           {
                Debug.Log("Mouse Button Pressed");
@@ -43,58 +44,48 @@ public class MKmouseController : MonoBehaviour
           if(Input.GetMouseButtonUp(0) && objSelected !=null)
           {
                Debug.Log("Mouse Button is released");
-               //drop the object
+               //Drop the object
                DropObject();
+
           }
-
-
           //code for dragging with the mouse
           if(Input.GetMouseButton(0) && objSelected !=null)
           {
                Debug.Log("Mouse Button is being Held");
-               //dragging object
+               //Dragging object
                DragObject();
           }
 
 
 
-//comment out old code
+
+//commented out old code 
 /*
        if(Input.GetKeyDown(KeyCode.Space))
        {
             Debug.Log("SPACE BAR WAS PRESSED");
-            card.transform.position = new Vector3(3f, 3f, 0f);
-
+            Card.transform.position = new Vector3(3f, 3f, 0f);
        }
-       if(Input.GetKeyDown(KeyCode.W))
+         if(Input.GetKeyDown(KeyCode.W))
        {
             Debug.Log("SPACE BAR WAS PRESSED");
-            card.transform.position = new Vector3(3f, 4f, 0f);
-
+            Card.transform.position = new Vector3(0f, 0f, 0f);
        }
-       if(Input.GetKeyDown(KeyCode.S))
+        if(Input.GetKeyDown(KeyCode.S))
        {
             Debug.Log("SPACE BAR WAS PRESSED");
-            card.transform.position = new Vector3(3f, 2f, 0f);
-
+            Card.transform.position = new Vector3(1f, 1f, 0f);
        }
-
-       if(Input.GetKeyDown(KeyCode.A))
+        if(Input.GetKeyDown(KeyCode.A))
        {
             Debug.Log("SPACE BAR WAS PRESSED");
-            card.transform.position = new Vector3(2f, 3f, 0f);
-
-       }
-       if(Input.GetKeyDown(KeyCode.D))
-       {
-            Debug.Log("SPACE BAR WAS PRESSED");
-            card.transform.position = new Vector3(4f, 3f, 0f);
-
+            Card.transform.position = new Vector3(-2f, 0f, 0f);
        }
 
        if(Input.GetKeyUp(KeyCode.Space))
        {
         Debug.Log("Space bar was released");
+      
        }
 
        */
@@ -102,24 +93,25 @@ public class MKmouseController : MonoBehaviour
 
 
     //new function goes here:
-    void CheckHitObject()
+    void CheckHitObject ()
     {
-          Debug.Log("Entered Check Hit Object function");
+     Debug.Log("Entered Check Hit Object function");
 
-          //create a Ray from the mouse position to check and detect if anything was hit when clicked by the mouse
-          RaycastHit2D hit2D = Physics2D.GetRayIntersection(Camera.main.ScreenPointToRay(Input.mousePosition));
-          if(hit2D.collider !=null)
-          {
-               Debug.Log(hit2D.collider.name +"Was clicked");
+     //create a Ray from the mouse position to check and detect if anything was hit when clicked by the mouse
+     RaycastHit2D hit2D = Physics2D.GetRayIntersection(Camera.main.ScreenPointToRay(Input.mousePosition));
+     if(hit2D.collider !=null)
+     {
+          Debug.Log(hit2D.collider.name +"Was clicked");
 
-               objSelected = hit2D.transform.gameObject;
-          }
-         
+          objSelected = hit2D.transform.gameObject;
+     }
+
     }
 
     //Function to drop object selected
     void DropObject()
     {
+          
           //use a loop to check through the list of snap points and if the positions are close enough to snap to the point on the list
           for(int i=0; i<snapPoints.Length; i++)
           {
@@ -136,15 +128,25 @@ public class MKmouseController : MonoBehaviour
           objSelected = null;
 
 
-           
     }
 
-    //write code to drag the game object and follow the mouse position
+    //write coce to drag the game object and follow the mouse position
     //Drag function
     void DragObject()
     {
           //fixed value for the offset from the camera
-          objSelected.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f));
+          objSelected.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f));
     }
 
+    
 }
+
+
+    
+
+
+ 
+
+        
+   
+
