@@ -9,6 +9,7 @@ using UnityEngine;
 public class JRmouseCoutroler : MonoBehaviour
 {
 
+    public TKplaySFX mySFX;
     public GameObject Card;
     public GameObject objSelected =null;
 
@@ -42,6 +43,8 @@ public class JRmouseCoutroler : MonoBehaviour
         {
             //  Debug.Log("Mouse Button is released"); 
              DropObject();
+             
+               mySFX.PlayMySFX();
         }
 
         //code for dragging with the mouse

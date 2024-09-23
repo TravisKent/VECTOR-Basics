@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DPmouseController : MonoBehaviour
 {
+    public TKplaySFX mySFX;
     public GameObject thing;
     public GameObject objectSelected = null;
 
@@ -41,6 +42,7 @@ public class DPmouseController : MonoBehaviour
                 Debug.Log("Mouse 0 realed");
                 //drop the object
                 DropObject();
+                mySFX.PlayMySFX();
 
          }
          

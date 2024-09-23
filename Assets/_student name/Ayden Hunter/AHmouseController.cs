@@ -5,6 +5,7 @@ using UnityEngine;
 public class AHmouseController : MonoBehaviour
 {
 
+    public TKplaySFX mySFX;
     public GameObject Card;
     public GameObject objSelected = null;
 
@@ -42,6 +43,7 @@ public class AHmouseController : MonoBehaviour
             Debug.Log("Mouse button released");
             // drop the object
             DropObject();
+            mySFX.PlayMySFX();
         }
         
 

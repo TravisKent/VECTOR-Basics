@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class GCmouseController : MonoBehaviour
 {
+
+    
+     public TKplaySFX mySFX;
+    
    // public GameObject card;
     public GameObject objSelected = null;
     public GameObject[] snapPoints;
@@ -41,6 +45,7 @@ public class GCmouseController : MonoBehaviour
         {
               Debug.Log("Mouse Button is released"); 
             DropObject();
+             mySFX.PlayMySFX();
         }
      /*
         if(Input.GetKeyDown(KeyCode.G))
