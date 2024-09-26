@@ -20,7 +20,8 @@ public class ZMDestroyovertime : MonoBehaviour
       {
         Destroy(gameObject);
         
-    }
+    
     */
-    Destroy(gameObject, lifetime);
+    }
+    //Destroy(gameObject, lifetime);
 }

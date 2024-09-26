@@ -5,9 +5,7 @@ using UnityEngine;
 
 public class ZMRotateBarrel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+    
         public bool keysActivated;
         public bool mouseActivated;
         public GameObject barrel;
@@ -40,6 +38,7 @@ public class ZMRotateBarrel : MonoBehaviour
 
 
             }
+            /*
             //rotate right
             if(Input.GetKey)KeyCode.D))
             {
@@ -50,6 +49,7 @@ public class ZMRotateBarrel : MonoBehaviour
                 barrel.transform.rotation = Quaternion.Euler(myRotation);
 
             }
+            */
 
 
         }
@@ -59,9 +59,9 @@ public class ZMRotateBarrel : MonoBehaviour
 
 
 
-            }
+            
 
 
         
-    }
+    
 }

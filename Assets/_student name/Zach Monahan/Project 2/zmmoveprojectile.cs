@@ -12,7 +12,7 @@ public class zmmoveprojectile : MonoBehaviour
     {
         
         rb = GetComponent<Rigidbody2D>();
-        rb.AddRelativeForce( new Vector3(launchVelocity, 0f,0f);
+       // rb.AddRelativeForce( new Vector3(launchVelocity, 0f,0f);
         //
     }
 

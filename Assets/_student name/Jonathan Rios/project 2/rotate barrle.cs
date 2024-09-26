@@ -32,7 +32,12 @@ public class rotatebarrle : MonoBehaviour
                 barrle.transform.rotation=Quaternion.Euler(myRotation);
             }
             //rotation right
+            /*
             if(Input.GetKey(KeyCode))
+            {
+                
+            }
+            */
         }
     
     }
