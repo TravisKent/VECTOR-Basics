@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ESmjouseController : MonoBehaviour
 {
+    public TKplaySFX mySFX;
      public GameObject Thing;
      public GameObject objSelected = null;
 
@@ -42,6 +43,8 @@ public class ESmjouseController : MonoBehaviour
                 Debug.Log( "Mouse Button is released");
                 //drop the object
                 DropObject();
+                
+               mySFX.PlayMySFX();
             }
             //code for dragging with the mouse
             if(Input.GetMouseButton(0) && objSelected !=null)

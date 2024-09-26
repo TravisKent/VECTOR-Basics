@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using UnityEditor.Experimental.GraphView;
-using UnityEditor.SearchService;
 using UnityEngine;
 
 public class ASmouseController : MonoBehaviour
 {
+
+    public TKplaySFX mySFX;
     public GameObject card;
 
     public GameObject objSelected = null;
@@ -48,6 +47,7 @@ public class ASmouseController : MonoBehaviour
             Debug.Log("Mouse Button is released");
         //drop the object
             DropObject();
+            mySFX.PlayMySFX();
         
         }
         //coode for dragging with the mouse

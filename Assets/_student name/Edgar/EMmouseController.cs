@@ -9,6 +9,7 @@ public class EMmouseController : MonoBehaviour
 {
 
 
+     public TKplaySFX mySFX;
     public GameObject Card;
     public GameObject objSelected = null;
 
@@ -46,6 +47,7 @@ public class EMmouseController : MonoBehaviour
                Debug.Log("Mouse Button is released");
                //Drop the object
                DropObject();
+               mySFX.PlayMySFX();
 
           }
           //code for dragging with the mouse
@@ -58,37 +60,7 @@ public class EMmouseController : MonoBehaviour
 
 
 
-
-//commented out old code 
-/*
-       if(Input.GetKeyDown(KeyCode.Space))
-       {
-            Debug.Log("SPACE BAR WAS PRESSED");
-            Card.transform.position = new Vector3(3f, 3f, 0f);
-       }
-         if(Input.GetKeyDown(KeyCode.W))
-       {
-            Debug.Log("SPACE BAR WAS PRESSED");
-            Card.transform.position = new Vector3(0f, 0f, 0f);
-       }
-        if(Input.GetKeyDown(KeyCode.S))
-       {
-            Debug.Log("SPACE BAR WAS PRESSED");
-            Card.transform.position = new Vector3(1f, 1f, 0f);
-       }
-        if(Input.GetKeyDown(KeyCode.A))
-       {
-            Debug.Log("SPACE BAR WAS PRESSED");
-            Card.transform.position = new Vector3(-2f, 0f, 0f);
-       }
-
-       if(Input.GetKeyUp(KeyCode.Space))
-       {
-        Debug.Log("Space bar was released");
-      
-       }
-
-       */
+ 
     }
 
 

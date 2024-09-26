@@ -5,6 +5,7 @@ using UnityEngine;
 public class LHmouseController : MonoBehaviour
 {
     
+     public TKplaySFX mySFX;
    //public GameObject card;
    public GameObject objSelected = null;
 
@@ -42,6 +43,8 @@ public class LHmouseController : MonoBehaviour
             Debug.Log("Mouse Button is being released");  
             //drop the object
             DropObject();
+            
+               mySFX.PlayMySFX();
 
         }
         //code for dragging with the mouse

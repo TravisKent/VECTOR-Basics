@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EAmouseController : MonoBehaviour
 {
+
+    public TKplaySFX mySFX;
    public  GameObject objSelected = null;
    public  GameObject Card;
 
@@ -41,6 +43,8 @@ public class EAmouseController : MonoBehaviour
       {
         Debug.Log("Mouse Button is Released");
         DropObject();
+        
+        mySFX.PlayMySFX();
       }
 
 
