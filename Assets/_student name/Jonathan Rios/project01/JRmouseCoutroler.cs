@@ -73,6 +73,7 @@ public class JRmouseCoutroler : MonoBehaviour
     //Function to drop object selected 
     void DropObject()
     {
+        
         //use a loop to check though the list of snap points and if the position are close enough to snap on then list
         for(int i=0; i<snapPoints.Length; i++) 
         {
