@@ -9,7 +9,7 @@ public class AHrotatebarrel : MonoBehaviour
     public bool keysActivated;
     public bool mouseActivated;
     public GameObject barrel;
-    public float rotateSpeed = 5;
+    public float rotateSpeed = 5f;
 
     private Vector3 myRotation;
 
@@ -28,14 +28,14 @@ public class AHrotatebarrel : MonoBehaviour
             if(Input.GetKey(KeyCode.A))
             {
 
-                myRotation.z = Mathf.Clamp(myRotation.z + rotateSpeed*Time.deltaTime, 0f, 180);
+                myRotation.z = Mathf.Clamp(myRotation.z + rotateSpeed*Time.deltaTime, 0f, 180f);
                 barrel.transform.rotation = Quaternion.Euler(myRotation);
 
             }
             //rotate right
             if(Input.GetKey(KeyCode.D))
             {
-                myRotation.z = Mathf.Clamp(myRotation.z - rotateSpeed*Time.deltaTime, 0f, 180);
+                myRotation.z = Mathf.Clamp(myRotation.z - rotateSpeed*Time.deltaTime, 0f, 180f);
 
                 barrel.transform.rotation = Quaternion.Euler(myRotation);
             }
