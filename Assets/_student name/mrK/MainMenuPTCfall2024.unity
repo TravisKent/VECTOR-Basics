@@ -298,6 +298,92 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1299680755
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4929259391051929489}
+    m_Modifications:
+    - target: {fileID: 4401208539974873013, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_Text
+      value: Franz_Chess_fixed
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -778
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -690
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809259, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_Name
+      value: LOAD BUTTON 1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809261, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: LevelToLoadName
+      value: Franz_Chess_fixed
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+--- !u!4 &1299680756 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+  m_PrefabInstance: {fileID: 1299680755}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1451425221
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,6 +468,92 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1554382546
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4929259391051929489}
+    m_Modifications:
+    - target: {fileID: 4401208539974873013, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_Text
+      value: JR chess
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -690
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809259, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_Name
+      value: LOAD BUTTON 1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809261, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: LevelToLoadName
+      value: JR chess
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+--- !u!4 &1554382547 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+  m_PrefabInstance: {fileID: 1554382546}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1631901729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -552,6 +724,92 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4135317721232768707, guid: e8fa3094e3b5b1a44bddd7cc36e9ddee, type: 3}
   m_PrefabInstance: {fileID: 1631901729}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2013503663
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4929259391051929489}
+    m_Modifications:
+    - target: {fileID: 4401208539974873013, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_Text
+      value: Gabe_chess_fixed
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1480
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -690
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809259, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: m_Name
+      value: LOAD BUTTON 1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401208540691809261, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+      propertyPath: LevelToLoadName
+      value: Gabe_chess_fixed
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+--- !u!4 &2013503664 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4401208540691809258, guid: 34590f0cdcceb0d4981296da564675b6, type: 3}
+  m_PrefabInstance: {fileID: 2013503663}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4929259391051929488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -572,6 +830,10 @@ PrefabInstance:
       propertyPath: PlayerOneCursor
       value: 
       objectReference: {fileID: 1947948765}
+    - target: {fileID: 2837412516629103940, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
+      propertyPath: LevelToLoadName
+      value: AH_Chess_NEW
+      objectReference: {fileID: 0}
     - target: {fileID: 2929395327762336532, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -626,9 +888,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3607004124656765762, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2013503664}
+    - targetCorrespondingSourceObject: {fileID: 3607004124656765762, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1299680756}
+    - targetCorrespondingSourceObject: {fileID: 3607004124656765762, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1554382547}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
+--- !u!224 &4929259391051929489 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3607004124656765762, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
+  m_PrefabInstance: {fileID: 4929259391051929488}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

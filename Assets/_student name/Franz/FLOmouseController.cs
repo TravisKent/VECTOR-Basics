@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FLOmouseController : MonoBehaviour
 {
+
+    public TKplaySFX mySFX;
     //public GameObject card;
     public GameObject objSelected = null;
 
@@ -36,6 +38,7 @@ public class FLOmouseController : MonoBehaviour
         {
             Debug.Log("Mouse Button is released");
             DropObject();
+            mySFX.PlayMySFX();
         }
         
         if(Input.GetMouseButton(0) && objSelected !=null)

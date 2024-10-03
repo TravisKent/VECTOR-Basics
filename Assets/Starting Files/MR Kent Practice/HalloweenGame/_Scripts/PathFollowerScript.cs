@@ -14,6 +14,8 @@ public class PathFollowerScript : MonoBehaviour
 	public float rotationSpeed = 5.0f;
 	public bool flipImage;
 	public string pathName;
+	public bool spriteInChildObject=false;
+	public SpriteRenderer childSprite;
 
 	Vector3 lastPosition;
 	Vector3 currentPosition;
@@ -41,10 +43,25 @@ public class PathFollowerScript : MonoBehaviour
 			Vector3 MovementDirection = PathToFollow.path_Objs[CurrentWaypointID].position-transform.position;
 			if(MovementDirection.x >=0)
 			{
-				gameObject.GetComponent<SpriteRenderer>().flipX = true;
+				if(spriteInChildObject==false)
+				{
+					gameObject.GetComponent<SpriteRenderer>().flipX = true;
+				}
+				else
+				{
+					childSprite.flipX = true;
+				}
 			}
 			else{
-				gameObject.GetComponent<SpriteRenderer>().flipX = false;
+				if(spriteInChildObject==false)
+				{
+					gameObject.GetComponent<SpriteRenderer>().flipX = false;
+				}
+				else
+				{
+					childSprite.flipX = false;
+				}
+
 			}
 		}
 		//var rotation  = Quaternion.LookRotation(PathToFollow.path_Objs[CurrentWaypointID].position - transform.position);
