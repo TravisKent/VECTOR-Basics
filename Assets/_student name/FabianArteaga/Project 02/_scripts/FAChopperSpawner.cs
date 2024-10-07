@@ -4,7 +4,7 @@ using System.ComponentModel;
 using JetBrains.Annotations;
 using UnityEngine;
 
-public class ChopperSpawner : MonoBehaviour
+public class FAChopperSpawner : MonoBehaviour
 {
     public GameObject[] targetsToSpawn;
     public Transform spawnLocation;

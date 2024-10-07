@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TrooperSpawner : MonoBehaviour
+public class LHTrooperSpawner : MonoBehaviour
 {
     public GameObject[] targetsToSpawn;
     public Transform spawnLocation;

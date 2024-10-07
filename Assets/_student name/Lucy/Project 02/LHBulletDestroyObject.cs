@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class BulletDestroyObject : MonoBehaviour
+public class LHBulletDestroyObject : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -21,8 +20,8 @@ public class BulletDestroyObject : MonoBehaviour
     {
         Debug.Log(col.gameObject.name +" : was hit");
         Destroy(col.gameObject);
-        //TODO LAter
-        //Create and isntantiate some explosion effect 
+        //TODO Later
+        //Create and instantiate some explosion effect
 
         //Destroy Bullet
         Destroy(gameObject);
