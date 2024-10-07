@@ -7,6 +7,7 @@ using UnityEngine.Video;
 public class MKmouseController : MonoBehaviour
 {
 
+     public TKplaySFX mySFX;
     public GameObject card;
     public GameObject objSelected = null;
 
@@ -45,6 +46,8 @@ public class MKmouseController : MonoBehaviour
                Debug.Log("Mouse Button is released");
                //drop the object
                DropObject();
+               mySFX.PlayMySFX();
+              
           }
 
 
