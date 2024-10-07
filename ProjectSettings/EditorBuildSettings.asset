@@ -6,7 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_student name/mrK/MainMenuPTCfall2024.unity
+    path: Assets/_student name/mrK/MainMenuPTCfall2024_turet.unity
+    guid: f8e0a41c6ecde4649ba280db2ab9efeb
+  - enabled: 1
+    path: Assets/_student name/Ayden Hunter/Project 02/AH_Turret.unity
+    guid: b6406005edcafbd4aa08c4e4571d1062
+  - enabled: 1
+    path: Assets/_student name/mrK/MainMenuPTCfall2024_chess.unity
     guid: 615ac9cc2cf4d484a9cc511afc26d04a
   - enabled: 1
     path: Assets/_student name/mrK/Project 01/mrKent_chess.unity

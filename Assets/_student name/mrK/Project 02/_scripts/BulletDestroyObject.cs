@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BulletDestroyObject : MonoBehaviour
 {
+    public bool hit1stTarget = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,12 @@ public class BulletDestroyObject : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log(col.gameObject.name +" : was hit");
-        Destroy(col.gameObject);
+       // Destroy(col.gameObject);
+        if(hit1stTarget == false)
+        {
+            hit1stTarget = true;
+            Destroy(col.gameObject);
+        }
         //TODO Later
         //Create and instantiate some explosion effect
 

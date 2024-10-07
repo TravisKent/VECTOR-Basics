@@ -832,7 +832,11 @@ PrefabInstance:
       objectReference: {fileID: 1947948765}
     - target: {fileID: 2837412516629103940, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
       propertyPath: LevelToLoadName
-      value: AH_Chess_NEW
+      value: AH_Turret
+      objectReference: {fileID: 0}
+    - target: {fileID: 2837412517908261148, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
+      propertyPath: m_Text
+      value: AH_Turret
       objectReference: {fileID: 0}
     - target: {fileID: 2929395327762336532, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
       propertyPath: m_LocalPosition.x

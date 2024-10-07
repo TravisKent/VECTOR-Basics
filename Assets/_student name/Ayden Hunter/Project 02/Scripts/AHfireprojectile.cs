@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class AHfireprojectile : MonoBehaviour
 {
+
+    //NEW CODE
+    public bool joySTickActivated;
+     public KeyCode p1button01, p1button02;
+
+    //OLD CODE
     public GameObject projectile;
     public Transform firePointPosition;
     public Transform firePointRotation;
@@ -27,6 +33,19 @@ public class AHfireprojectile : MonoBehaviour
             //reset the shot timer
             myTimer = shotDelay;
             Instantiate(projectile, firePointPosition.transform.position, firePointRotation.transform.rotation);
+        }
+
+        if(joySTickActivated)
+        {
+            //fire Button
+             if(Input.GetKeyDown(p1button01))
+            {
+                Debug.Log(p1button01+" pressed");
+                //check if obhect is clicked on
+                //reset the shot timer
+                myTimer = shotDelay;
+                Instantiate(projectile, firePointPosition.transform.position, firePointRotation.transform.rotation);
+            }
         }
     }
 }
