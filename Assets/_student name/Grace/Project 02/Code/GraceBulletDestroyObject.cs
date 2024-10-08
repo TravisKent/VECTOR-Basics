@@ -18,13 +18,23 @@ public class GraceBulletDestroyObjects : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D col)
     {
+
+
         Debug.Log(col.gameObject.name+" : was hit");
-       // Destroy(col.gameObject);
-       if(hit1stTarget == false)
-       {
-        hit1stTarget = true;
-        Destroy(col.gameObject);
-       }
-        Destroy(gameObject);
+
+        if(col.gameObject.tag == "LevelButton")
+        {
+            //do nothing
+        }
+        else
+        {
+            // Destroy(col.gameObject);
+            if(hit1stTarget == false)
+            {
+                hit1stTarget = true;
+                Destroy(col.gameObject);
+            }
+                Destroy(gameObject);
+        }
     }
 }
