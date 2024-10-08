@@ -16,6 +16,7 @@ TagManager:
   - Play
   - dice_JN
   - destructable
+  - NonDestruct
   layers:
   - Default
   - TransparentFX

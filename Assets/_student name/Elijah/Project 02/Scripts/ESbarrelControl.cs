@@ -2,19 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LHbarrelControl_1 : MonoBehaviour
+public class ESbarrelControl : MonoBehaviour
 {
-      //NEW ADDTION
+    //NEW ADDTION
     public bool joySTickActivated;
     Vector2 InputAxes;
-  public bool keysActivated  = false;
-  public bool mouseActivated = false;
-  public GameObject barrel;
-  public float rotateSpeed = 5f;
-   
-   private Vector3 myRotation;
-   
-   
+
+
+    public bool keysActivated = false;
+    public bool mouseAcvtivated = false;
+    public GameObject barrel;
+    public float rotatespeed = 5f;
+
+    private Vector3 myRotation;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,19 +32,18 @@ public class LHbarrelControl_1 : MonoBehaviour
             //rotate left
             if(Input.GetKey(KeyCode.A))
             {
-                myRotation.z = Mathf.Clamp(myRotation.z +rotateSpeed*Time.deltaTime,0f,180f);
+                myRotation.z = Mathf.Clamp(myRotation.z +rotatespeed*Time.deltaTime, -25f, 160f);
                 barrel.transform.rotation = Quaternion.Euler(myRotation);
             }
 
             //rotate right
             if(Input.GetKey(KeyCode.D))
             {
-                myRotation.z = Mathf.Clamp( myRotation.z - rotateSpeed*Time.deltaTime,0f,180f);
+                myRotation.z = Mathf.Clamp( myRotation.z - rotatespeed*Time.deltaTime, -25f, 160f);
                 barrel.transform.rotation = Quaternion.Euler(myRotation);
             }
-        }
 
- //Joystick rotate
+            //Joystick rotate
             if(joySTickActivated)
             {
                 
@@ -55,19 +55,18 @@ public class LHbarrelControl_1 : MonoBehaviour
                 if(InputAxes.x < -0.5 )
                 {
 
-                    myRotation.z = Mathf.Clamp(myRotation.z + rotateSpeed*Time.deltaTime, 0f, 180f);
+                    myRotation.z = Mathf.Clamp(myRotation.z + rotatespeed*Time.deltaTime, -25f, 160f);
                     barrel.transform.rotation = Quaternion.Euler(myRotation);
 
                 }
                 else if(InputAxes.x > 0.5 ) 
                 {
-                    myRotation.z = Mathf.Clamp(myRotation.z - rotateSpeed*Time.deltaTime, 0f, 180f);
+                    myRotation.z = Mathf.Clamp(myRotation.z - rotatespeed*Time.deltaTime, -25f, 160f);
 
                     barrel.transform.rotation = Quaternion.Euler(myRotation);
                 }
             }
+        }
+
     }
 }
-
-    
-
