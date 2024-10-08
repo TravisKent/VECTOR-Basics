@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  launchVelocity: 500
+  launchVelocity: 700
 --- !u!114 &2367482541001939549
 MonoBehaviour:
   m_ObjectHideFlags: 0
