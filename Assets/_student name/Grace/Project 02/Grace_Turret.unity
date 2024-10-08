@@ -611,6 +611,95 @@ Transform:
   - {fileID: 466696853}
   m_Father: {fileID: 1653980603}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &597640036
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1511776203581643272, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1317047911}
+    - target: {fileID: 2365139606048271549, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_Name
+      value: UI OBJECTS BACK TO MAIN MENU
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476576561738074162, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1600
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476576561738074162, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 890
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476576561738074165, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: LevelToLoadName
+      value: MainMenuPTCfall2024_turet
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425944938598275722, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425944938598275722, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222934736946662895, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222934736946662895, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
 --- !u!1 &676787794
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,11 +815,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2059447972}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &991397919 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 815725831179523616, guid: d470d5e88a668c64eac7a528001f06a6, type: 3}
-  m_PrefabInstance: {fileID: 7738216320730729671}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1060981725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,6 +1261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6642138923f161429d7e14f451e6f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joySTickActivated: 1
   keysActivated: 1
   mouseActivated: 0
   barrel: {fileID: 549043271}
@@ -1193,6 +1278,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2e5f5b1018dfcc489e2d7d8ada8846a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joySTickActivated: 1
+  p1button01: 330
+  p1button02: 0
   projectile: {fileID: 3089119365139435874, guid: 7db1f9796e45cf4489f60bf7acb8711b, type: 3}
   firePointPosition: {fileID: 1425561980}
   firePointRotation: {fileID: 549043272}
@@ -1394,10 +1482,10 @@ PrefabInstance:
     - target: {fileID: 2662450232507004518, guid: 671a275ca9487594c8395538874163cf, type: 3}
       propertyPath: targetsToSpawn.Array.data[0]
       value: 
-      objectReference: {fileID: 991397919}
+      objectReference: {fileID: 815725831179523616, guid: d470d5e88a668c64eac7a528001f06a6, type: 3}
     - target: {fileID: 5418742089090902518, guid: 671a275ca9487594c8395538874163cf, type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: EnemyINGAME
       objectReference: {fileID: 0}
     - target: {fileID: 7156417734677514229, guid: 671a275ca9487594c8395538874163cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1531,7 +1619,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 815725831179523616, guid: d470d5e88a668c64eac7a528001f06a6, type: 3}
       propertyPath: m_Name
-      value: Rats
+      value: RatsINGAME
       objectReference: {fileID: 0}
     - target: {fileID: 2868987536985272319, guid: d470d5e88a668c64eac7a528001f06a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1591,3 +1679,4 @@ SceneRoots:
   - {fileID: 7738216320730729671}
   - {fileID: 1060981727}
   - {fileID: 441607795}
+  - {fileID: 597640036}
