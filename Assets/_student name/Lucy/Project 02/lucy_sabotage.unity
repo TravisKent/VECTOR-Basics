@@ -891,6 +891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42f9204467197d6488c2615fd2ceabd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joySTickActivated: 1
   keysActivated: 1
   mouseActivated: 0
   barrel: {fileID: 152456238}
@@ -924,6 +925,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c656210534e1a27419b801b787ccc3c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joySTickActivated: 1
+  p1button01: 330
+  p1button02: 0
   projectile: {fileID: 3933105798011729028, guid: 8fa3f62b0f35d3e4098925d49627d1dc, type: 3}
   firePointPosistion: {fileID: 1869434493}
   firePointRotation: {fileID: 152456239}
