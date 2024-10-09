@@ -19,11 +19,19 @@ public class LHBulletDestroyObject : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log(col.gameObject.name +" : was hit");
-        Destroy(col.gameObject);
-        //TODO Later
-        //Create and instantiate some explosion effect
+        if(col.gameObject.tag =="LevelButton")
+        {
+            //do nothing
+        }
+        else
+        {
+            Destroy(col.gameObject);
+            //TODO Later
+            //Create and instantiate some explosion effect
 
-        //Destroy Bullet
-        Destroy(gameObject);
+            //Destroy Bullet
+            
+            Destroy(gameObject);
+        }
     }
 }

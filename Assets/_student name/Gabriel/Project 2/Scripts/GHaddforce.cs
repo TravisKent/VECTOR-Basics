@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-
+using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class GHprojectile : MonoBehaviour
-{
+{  
    Rigidbody m_Rigidbody;
    public float m_Thrust = 20f;
    float rangeMax = 1.5f;
