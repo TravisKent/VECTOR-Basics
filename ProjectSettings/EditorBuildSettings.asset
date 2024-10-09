@@ -9,48 +9,39 @@ EditorBuildSettings:
     path: Assets/_student name/mrK/MainMenuPTCfall2024_turet.unity
     guid: f8e0a41c6ecde4649ba280db2ab9efeb
   - enabled: 1
-    path: Assets/_student name/Ayden Hunter/Project 02/AH_Turret.unity
-    guid: b6406005edcafbd4aa08c4e4571d1062
-  - enabled: 1
     path: Assets/_student name/mrK/MainMenuPTCfall2024_chess.unity
     guid: 615ac9cc2cf4d484a9cc511afc26d04a
+  - enabled: 0
+    path: Assets/_student name/Ayden Hunter/Project 02/AH_old.unity
+    guid: b6406005edcafbd4aa08c4e4571d1062
   - enabled: 1
-    path: Assets/_student name/mrK/Project 01/mrKent_chess.unity
-    guid: 6669646ac21331541aefb88b7bdd5a03
+    path: Assets/_student name/Lucy/Project 02/lucy_sabotage.unity
+    guid: 1f3e68ba19a6f1e43b7443159dc1427d
   - enabled: 1
-    path: Assets/_student name/Grace/Project 01/Grace_Chess.unity
-    guid: 6f92e9159f3d12942b7b3e292ee2ffa7
+    path: Assets/_student name/Derek/DP Project 02(sabotage game)/DP turret.unity
+    guid: f2e77cbd345859945ae51df8aee3eb10
   - enabled: 1
-    path: Assets/_student name/Lucy/Project 01/lucy_chess.unity
-    guid: 538e718c5aa978d449274cb42d173519
+    path: Assets/_student name/Zach Monahan/Project 2/Zach turret.unity
+    guid: ebf7abf3a102a874ab62fea91a01b443
   - enabled: 1
-    path: Assets/_student name/AidenSandstoe/Project 01/Aiden_Chessgame.unity
-    guid: 99eedc2c3f88a6649bcbf6d03914d86b
+    path: Assets/_student name/Grace/Project 02/Grace_Turret.unity
+    guid: beef303c89e5bbb46b3165f63d0fd2b3
   - enabled: 1
-    path: Assets/_student name/Ayden Hunter/Project 01/AH_Chess_NEW.unity
-    guid: 26d08c390c6ec134eadcb1733dd92e3a
+    path: Assets/_student name/Elijah/Project 02/ES_turretgame.unity
+    guid: 12120fbb1a122f6468497e81aad33161
   - enabled: 1
-    path: Assets/_student name/Jonathan Rios/project01/JR chess.unity
-    guid: 1fe88fdaece50704b8df000881279622
+    path: Assets/_student name/FabianArteaga/Project 02/New Scene.unity
+    guid: d23a315bae2cc2845b6de5fab7a74e90
   - enabled: 1
-    path: Assets/_student name/Gabriel/Project 01/Gabe_chess_fixed.unity
-    guid: f9fe0af80f67c4c4d80c672bccd75c81
+    path: Assets/_student name/Franz/Project 2/Franz_Turret.unity
+    guid: 2abdae39649ef2245b544f6cc2e8a1b7
   - enabled: 1
-    path: Assets/_student name/Franz/Project 01/Franz_Chess_fixed.unity
-    guid: bad650eaeb285ef44a474c8ab20bece1
+    path: Assets/_student name/Gabriel/Project 2/GHTurret.unity
+    guid: 528384604649c014ba9a06e61620dc27
   - enabled: 1
-    path: Assets/_student name/Derek/Dp project 01/Derek P. Chess.unity
-    guid: 220506a297aa99b49bf65ee38c8f6b60
+    path: Assets/_student name/Jonathan Rios/project 2/jonathan Turret.unity
+    guid: 915b3177cbd232b48b9f43777a80ec27
   - enabled: 1
-    path: Assets/_student name/FabianArteaga/Project 01/FA_chess.unity
-    guid: 9eb9d63dac46c4f4496497d0b817b214
-  - enabled: 1
-    path: Assets/_student name/Elijah/Project 01/ES_chess.unity
-    guid: 2b6d639c471d524429d899c2ef75c4ab
-  - enabled: 1
-    path: Assets/_student name/Elias/Projec 1/EA Chess.unity
-    guid: 110eecf551257cd4bb77184879cf4197
-  - enabled: 1
-    path: Assets/_student name/Edgar/Project 01/Edgar_Chess.unity
-    guid: 43b692f9233450e4d89513bd1265006e
+    path: Assets/_student name/AidenSandstoe/Project 02/ASSabotageGame.unity
+    guid: 4469e4ae76e3f7741a4fe616b131cf11
   m_configObjects: {}

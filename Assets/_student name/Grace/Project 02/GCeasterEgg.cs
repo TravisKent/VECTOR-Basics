@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GCeasterEgg : MonoBehaviour
 {
+    public Animator myAnimator;
 
     public bool L1;
     public bool L2;
@@ -87,6 +88,7 @@ public class GCeasterEgg : MonoBehaviour
             if( L1==true && L2==true && L3==true && L4==true )
             {
                 L5 = true;
+                myAnimator.SetBool("Cd", true);
             }
             else
             {

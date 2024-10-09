@@ -122,6 +122,91 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &95207201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1511776203581643272, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 350990778}
+    - target: {fileID: 2365139606048271549, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_Name
+      value: UI OBJECTS BACK TO MAIN MENU
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476576561738074165, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: LevelToLoadName
+      value: MainMenuPTCfall2024_turet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823550672449659943, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: LevelToLoad
+      value: MainMenuPTCfall2024_turet
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425944938598275722, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425944938598275722, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222934736946662895, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222934736946662895, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612462104586612310, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
 --- !u!1 &152456238
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,6 +976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42f9204467197d6488c2615fd2ceabd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joySTickActivated: 1
   keysActivated: 1
   mouseActivated: 0
   barrel: {fileID: 152456238}
@@ -924,6 +1010,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c656210534e1a27419b801b787ccc3c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joySTickActivated: 1
+  p1button01: 330
+  p1button02: 0
   projectile: {fileID: 3933105798011729028, guid: 8fa3f62b0f35d3e4098925d49627d1dc, type: 3}
   firePointPosistion: {fileID: 1869434493}
   firePointRotation: {fileID: 152456239}
@@ -1163,3 +1252,4 @@ SceneRoots:
   - {fileID: 2629607214989442187}
   - {fileID: 525289509}
   - {fileID: 1094550086}
+  - {fileID: 95207201}
