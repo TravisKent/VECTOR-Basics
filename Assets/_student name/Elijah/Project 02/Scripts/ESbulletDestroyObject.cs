@@ -19,18 +19,25 @@ public class ESbulletDestroyObject : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log(col.gameObject.name +": was hit");
-        if(col.tag == "NonDestruct")
+        if(col.gameObject.tag == "LevelButton")
         {
             //do nothing
+        }
+        else if(col.tag == "NonDestruct")
+        {
+            //do nothing
+            //destroy bullet
+            Destroy(gameObject);
         }
         else 
         {
             Destroy(col.gameObject);
             //todo later
             //create and instantiate some explosion effect
+            //destroy bullet
+            Destroy(gameObject);
         }
         
-        //destroy bullet
-        Destroy(gameObject);
+        
     }
 }
