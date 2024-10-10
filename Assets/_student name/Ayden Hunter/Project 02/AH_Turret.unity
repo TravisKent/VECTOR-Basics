@@ -213,7 +213,7 @@ MonoBehaviour:
   targetsToSpawn:
   - {fileID: 681897176845428211, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
   spawnLocation: {fileID: 485441985}
-  spawnTimer: 2
+  spawnTimer: 4
   timeCounter: 1
   spawnTargetCounter: 0
   pathName: Dragon Path
@@ -231,6 +231,58 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 485441985}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &345671894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 345671896}
+  - component: {fileID: 345671895}
+  m_Layer: 0
+  m_Name: Dragon Spawner (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &345671895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345671894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbbd165d2b42a74585f959ed7250b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetsToSpawn:
+  - {fileID: 8439105931116963859, guid: d7b53ec763b433c458827aa0f1537eb8, type: 3}
+  spawnLocation: {fileID: 440274063}
+  spawnTimer: 10
+  timeCounter: 0
+  spawnTargetCounter: 0
+  pathName: Dragon Path
+--- !u!4 &345671896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345671894}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.88, y: 16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 440274063}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &346492211
@@ -317,6 +369,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &440274062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 440274063}
+  m_Layer: 0
+  m_Name: Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &440274063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440274062}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 345671896}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &481695277
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,108 +681,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 147123197}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &841635154
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 356161400160248351, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 356161400160248351, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 356161400160248351, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 356161400160248351, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 356161400160248351, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 356161400160248351, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 356161400160248351, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 356161400160248351, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 356161400160248351, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 356161400160248351, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 681897176845428211, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_Name
-      value: Dragon (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1934065946184541924, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: flipImage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1934065946184541924, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: childSprite
-      value: 
-      objectReference: {fileID: 841635155}
-    - target: {fileID: 1934065946184541924, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: PathToFollow
-      value: 
-      objectReference: {fileID: 147123198}
-    - target: {fileID: 1934065946184541924, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: spriteInChildObject
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3937376204840991958, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_Size.x
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7010895745729797049, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7545790614853337796, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: spawnTimer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7545790614853337796, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: timeCounter
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7545790614853337796, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: targetsToSpawn.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7545790614853337796, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-      propertyPath: targetsToSpawn.Array.data[0]
-      value: 
-      objectReference: {fileID: 2745246483805983975, guid: 0797cd0b6b0c5054f9f6b4b374ff6b7a, type: 3}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
---- !u!212 &841635155 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 7010895745729797049, guid: e1be71176a7a35b4192d006f4c189fe2, type: 3}
-  m_PrefabInstance: {fileID: 841635154}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &843100716
 GameObject:
   m_ObjectHideFlags: 0
@@ -1521,10 +1502,10 @@ SceneRoots:
   - {fileID: 4476830951155811214}
   - {fileID: 1654476940}
   - {fileID: 4646155469845433330}
-  - {fileID: 841635154}
   - {fileID: 147123197}
   - {fileID: 231554371}
   - {fileID: 1728482586}
+  - {fileID: 345671896}
   - {fileID: 8791870907141244497}
   - {fileID: 1471402839}
   - {fileID: 1461438622}
