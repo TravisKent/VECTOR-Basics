@@ -920,6 +920,10 @@ PrefabInstance:
       propertyPath: m_FontData.m_FontSize
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 4388795409907127494, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4718362586959389933, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
       propertyPath: LevelToLoadName
       value: ES_turretgame
@@ -939,6 +943,10 @@ PrefabInstance:
     - target: {fileID: 8833021983128314258, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
       propertyPath: LevelToLoadName
       value: jonathan Turret
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833021983128314260, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8833021983845486026, guid: 21adfefb8d07ff6409bf3dac2c3f9fd6, type: 3}
       propertyPath: m_Text

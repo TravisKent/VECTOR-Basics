@@ -5,6 +5,8 @@ using UnityEngine;
 public class DPBulletDestroyObject : MonoBehaviour
 {
     // Start is called before the first frame update
+    public bool hit1stTarget = false;
+    // Start is called before the first frame update
     void Start()
     {
         
@@ -15,16 +17,26 @@ public class DPBulletDestroyObject : MonoBehaviour
     {
         
     }
-
     void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log(col.gameObject.name +" : was hit");
-        Destroy(col.gameObject);
-        //TODO Later
-        //Create and instaniate some explosion effect
 
-        //Destroy bullet
-        Destroy(gameObject);
+
+        Debug.Log(col.gameObject.name+" : was hit");
+
+        if(col.gameObject.tag == "LevelButton")
+        {
+            //do nothing
+        }
+        else
+        {
+            // Destroy(col.gameObject);
+            if(hit1stTarget == false)
+            {
+                hit1stTarget = true;
+                Destroy(col.gameObject);
+            }
+                Destroy(gameObject);
+        }
     }
 
 

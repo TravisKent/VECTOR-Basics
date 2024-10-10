@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BUlletDEStroyObj : MonoBehaviour
 {
-    public bool hitfirstTarget=false;
+    public bool hit1stTarget = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,17 +18,23 @@ public class BUlletDEStroyObj : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log(col.gameObject.name +" : was hit");
-        if(hitfirstTarget == false)
-        {
-            hitfirstTarget=true;
-            Destroy(col.gameObject);
-        }
-        
-        //TODO Later
-        //Create and instantiate some explosion effect
 
-        //Destroy Bullet
-        Destroy(gameObject);
+
+        Debug.Log(col.gameObject.name+" : was hit");
+
+        if(col.gameObject.tag == "LevelButton")
+        {
+            //do nothing
+        }
+        else
+        {
+            // Destroy(col.gameObject);
+            if(hit1stTarget == false)
+            {
+                hit1stTarget = true;
+                Destroy(col.gameObject);
+            }
+                Destroy(gameObject);
+        }
     }
 }
