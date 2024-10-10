@@ -11,12 +11,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_student name/mrK/MainMenuPTCfall2024_chess.unity
     guid: 615ac9cc2cf4d484a9cc511afc26d04a
-  - enabled: 0
-    path: Assets/_student name/Ayden Hunter/Project 02/AH_old.unity
-    guid: b6406005edcafbd4aa08c4e4571d1062
   - enabled: 1
     path: Assets/_student name/Lucy/Project 02/lucy_sabotage.unity
     guid: 1f3e68ba19a6f1e43b7443159dc1427d
+  - enabled: 1
+    path: Assets/_student name/Ayden Hunter/Project 02/AH_Turret.unity
+    guid: b6406005edcafbd4aa08c4e4571d1062
+  - enabled: 1
+    path: Assets/_student name/mrK/Credits.unity
+    guid: 66b8063b0dd795d4f853712a1a7236fe
+  - enabled: 1
+    path: Assets/_student name/Elias/Project 2/Turrent Game.unity
+    guid: e7d477a7baad1844b83f886f7b4727a8
   - enabled: 1
     path: Assets/_student name/Derek/DP Project 02(sabotage game)/DP turret.unity
     guid: f2e77cbd345859945ae51df8aee3eb10
@@ -37,7 +43,7 @@ EditorBuildSettings:
     guid: 2abdae39649ef2245b544f6cc2e8a1b7
   - enabled: 1
     path: Assets/_student name/Gabriel/Project 2/GHTurret.unity
-    guid: 528384604649c014ba9a06e61620dc27
+    guid: c7db3922190cc3448af5cb2998f987b2
   - enabled: 1
     path: Assets/_student name/Jonathan Rios/project 2/jonathan Turret.unity
     guid: 915b3177cbd232b48b9f43777a80ec27

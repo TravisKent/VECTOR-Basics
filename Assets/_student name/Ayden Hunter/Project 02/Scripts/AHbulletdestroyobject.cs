@@ -4,8 +4,8 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 public class AHbulletdestroyobject : MonoBehaviour
-{
-       public bool hit1stTarget = false;
+{   
+     public bool hit1stTarget = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,4 +38,5 @@ public class AHbulletdestroyobject : MonoBehaviour
                 Destroy(gameObject);
         }
     }
+
 }

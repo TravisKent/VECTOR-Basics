@@ -616,9 +616,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI OBJECTS BACK TO MAIN MENU
       objectReference: {fileID: 0}
+    - target: {fileID: 2476576560852968557, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476576560852968557, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476576560852968557, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6320754
+      objectReference: {fileID: 0}
     - target: {fileID: 2476576561738074165, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
       propertyPath: LevelToLoadName
       value: MainMenuPTCfall2024_turet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476576561738074167, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_Color.b
+      value: 0.18222679
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476576561738074167, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_Color.g
+      value: 0.18222679
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476576561738074167, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
+      propertyPath: m_Color.r
+      value: 0.990566
       objectReference: {fileID: 0}
     - target: {fileID: 5425944938598275722, guid: 8643820e60b9b5d4eb71051aed5cba46, type: 3}
       propertyPath: m_LocalPosition.x

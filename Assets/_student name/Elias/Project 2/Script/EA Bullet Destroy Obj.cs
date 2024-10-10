@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BUlletDEStroyObj : MonoBehaviour
 {
-    public bool hit1stTarget = false;
+       public bool hit1stTarget = false;
     // Start is called before the first frame update
     void Start()
     {
