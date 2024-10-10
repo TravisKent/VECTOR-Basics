@@ -18,10 +18,18 @@ public class ASBulletDestroyObject : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log(col.gameObject.name +"  : was hit");
+        Debug.Log(col.gameObject.name +"  : was hit");    
+        if(col.gameObject.tag == "LevelButton")
+        {
+
+
+        }
+        else {
         Destroy(col.gameObject);
         //TODO Later
         //Create and Instantiate some explosion
         Destroy(gameObject);
+        }
     }   
+    
 }
