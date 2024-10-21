@@ -17,6 +17,7 @@ TagManager:
   - dice_JN
   - destructable
   - NonDestruct
+  - BossPart
   layers:
   - Default
   - TransparentFX

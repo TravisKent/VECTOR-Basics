@@ -50,6 +50,10 @@ public class PlayerShot : MonoBehaviour
 
                 //Destroy(other.gameObject);
             }
+            if(other.tag == "BossPart")
+            {
+                other.GetComponent<BossPartHealthSystem>().TakeDamage();
+            }
 
             Destroy(this.gameObject);
         }
