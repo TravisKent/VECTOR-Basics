@@ -18,6 +18,8 @@ TagManager:
   - destructable
   - NonDestruct
   - BossPart
+  - Bullignore
+  - Minion
   layers:
   - Default
   - TransparentFX

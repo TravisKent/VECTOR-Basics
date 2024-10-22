@@ -14,6 +14,7 @@ public class BossPartHealthSystem : MonoBehaviour
     public GameObject particaleEffect;
 
     //spawing System
+    public bool SpawnerACTIVE=false;
         public GameObject[] targetsToSpawn;
         public Transform spawnLocation;
         public float spawnTimer;
@@ -47,7 +48,10 @@ public class BossPartHealthSystem : MonoBehaviour
             }
         }
 
-        SpawnGrave();
+        if(SpawnerACTIVE)
+        {
+            SpawnGrave();
+        }
     }
 
 
@@ -71,7 +75,7 @@ public class BossPartHealthSystem : MonoBehaviour
         {
            
             //spawn bad guy
-            GameObject newSpawn = Instantiate(targetsToSpawn[spawnTargetCounter], spawnLocation.position, Quaternion.identity);
+            GameObject newSpawn = Instantiate(targetsToSpawn[spawnTargetCounter], spawnLocation.position, spawnLocation.rotation);
             //setup his path to follow
         
             timeSpawn = spawnTimer;

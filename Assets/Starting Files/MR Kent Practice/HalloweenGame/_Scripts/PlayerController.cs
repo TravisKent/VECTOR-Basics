@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
           //  Debug.Log("Moving player 1 JS");
             InputAxes.x = Input.GetAxisRaw ("Horizontal1");
             InputAxes.y = Input.GetAxisRaw ("Vertical1");
-            Debug.Log(InputAxes);
+            //Debug.Log(InputAxes);
         
             theRB.velocity = new Vector2(InputAxes.x, InputAxes.y)*moveSpeed;
             transform.position = new Vector3( Mathf.Clamp(transform.position.x, bottomLeftLimit.position.x, topRightLimit.position.x), Mathf.Clamp(transform.position.y, bottomLeftLimit.position.y, topRightLimit.position.y),  transform.position.z);
