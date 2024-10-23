@@ -38,9 +38,9 @@ public class ZMRotateBarrel : MonoBehaviour
 
 
             }
-            /*
+            
             //rotate right
-            if(Input.GetKey)KeyCode.D))
+            if(Input.GetKey(KeyCode.D))
             {
 
                 myRotation.z = Mathf.Clamp(myRotation.z -rotateSpeed*Time.deltaTime, 0f, 180);
@@ -49,7 +49,7 @@ public class ZMRotateBarrel : MonoBehaviour
                 barrel.transform.rotation = Quaternion.Euler(myRotation);
 
             }
-            */
+            
 
 
         }

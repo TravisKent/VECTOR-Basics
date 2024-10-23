@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ZMDestroyovertime : MonoBehaviour
 {
+   public float lifetime;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,15 +14,15 @@ public class ZMDestroyovertime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         /*
-        lifetime -= Time.delta Time
+        lifetime -= Time.deltaTime;
         if(lifetime<=0)
-      {
-        Destroy(gameObject);
-        
-    
-    */
+        {
+            Destroy(gameObject);
+        }
+        */
+        {
+            Destroy(gameObject, lifetime);
+        }
     }
-    //Destroy(gameObject, lifetime);
 }
