@@ -124,6 +124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5799266648916053437}
+  - component: {fileID: 2116733987247361599}
   m_Layer: 0
   m_Name: Boss_Holder
   m_TagString: Untagged
@@ -148,6 +149,25 @@ Transform:
   - {fileID: 8583037748924074607}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2116733987247361599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409402122924493316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1473872683621d34da13e3b8d8b800e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossParts:
+  - {fileID: 4954039195231952449}
+  - {fileID: 7752123612581112339}
+  - {fileID: 3759373398153677017}
+  bossPartsDistroyed: 0
+  winSCreen: {fileID: 7875012436131479178, guid: 1c73d923f0fa4c34e81fb274bf1dc9fa, type: 3}
+  spawnPoint: {fileID: 5799266648916053437}
 --- !u!1 &1703578705838730042
 GameObject:
   m_ObjectHideFlags: 0

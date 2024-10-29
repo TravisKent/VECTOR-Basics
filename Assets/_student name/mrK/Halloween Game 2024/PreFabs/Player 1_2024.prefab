@@ -389,7 +389,7 @@ SpriteRenderer:
   m_SortingLayerID: 1969272731
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3f345f9dcef844749863556e4003c173, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -397,7 +397,7 @@ SpriteRenderer:
   m_Size: {x: 0.7083333, y: 0.7916667}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &7344694956457309498
@@ -559,6 +559,7 @@ MonoBehaviour:
   player03: 0
   player04: 0
   playerHealth: 3
+  playerFullHealth: 10
   playerSprite: {fileID: 7344694956457309497}
   playerControlScript: {fileID: 7344694956457309499}
   playerCircleCollider: {fileID: 7344694956457309495}
