@@ -2703,6 +2703,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2005885919107135008, guid: 49660a49aa20a714eafadacc9087898f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.8
+      objectReference: {fileID: 0}
     - target: {fileID: 7630681743733221259, guid: 49660a49aa20a714eafadacc9087898f, type: 3}
       propertyPath: m_Name
       value: Boss Spawner
