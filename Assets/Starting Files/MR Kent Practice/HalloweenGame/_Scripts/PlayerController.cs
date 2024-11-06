@@ -18,6 +18,10 @@ public class PlayerController : MonoBehaviour
     public GameObject shot;
     private float shotCounter;
     public float timeBetweenShots = 0.1f;
+    public bool powerUpShot=false;
+    public float powerUpTimer = 10.0f;
+    public float powerUpTimeCounter;
+    public Transform POWERUPshotpoint;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +33,14 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
        // theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"))*moveSpeed;
-        
+        if(powerUpShot)
+        {
+            powerUpTimeCounter = powerUpTimeCounter -Time.deltaTime;
+            if(powerUpTimeCounter<= 0)
+            {
+                powerUpShot = false;
+            }
+        }
         
         if(player01==true)
         {
@@ -91,6 +102,10 @@ public class PlayerController : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Joystick1Button0) || Input.GetKeyDown(KeyCode.LeftControl))
             {
                 Instantiate(shot, shotpoint.position, shotpoint.rotation);
+                if(powerUpShot)
+                {
+                    Instantiate(shot, POWERUPshotpoint.position, POWERUPshotpoint.rotation);
+                }
                 shotCounter = timeBetweenShots;
                 scorekeeper.SubtractPointsPlayer01(1);
             }
@@ -102,6 +117,10 @@ public class PlayerController : MonoBehaviour
                 if(shotCounter <=0)
                 {
                     Instantiate(shot, shotpoint.position, shotpoint.rotation);
+                    if(powerUpShot)
+                    {
+                        Instantiate(shot, POWERUPshotpoint.position, POWERUPshotpoint.rotation);
+                    }
                     shotCounter = timeBetweenShots;
                     scorekeeper.SubtractPointsPlayer01(1);
                 }
@@ -114,6 +133,10 @@ public class PlayerController : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Joystick2Button0) || Input.GetKeyDown(KeyCode.RightControl))
             {
                 Instantiate(shot, shotpoint.position, shotpoint.rotation);
+                if(powerUpShot)
+                {
+                    Instantiate(shot, POWERUPshotpoint.position, POWERUPshotpoint.rotation);
+                }
                 shotCounter = timeBetweenShots;
                  scorekeeper.SubtractPointsPlayer02(1);
             }
@@ -125,11 +148,21 @@ public class PlayerController : MonoBehaviour
                 if(shotCounter <=0)
                 {
                     Instantiate(shot, shotpoint.position, shotpoint.rotation);
+                    if(powerUpShot)
+                    {
+                        Instantiate(shot, POWERUPshotpoint.position, POWERUPshotpoint.rotation);
+                    }
                     shotCounter = timeBetweenShots;
                      scorekeeper.SubtractPointsPlayer02(1);
                 }
             }
            
         }
+    }
+
+    public void TurnOnPowerUP()
+    {
+        powerUpShot = true;
+        powerUpTimeCounter = powerUpTimer;
     }
 }

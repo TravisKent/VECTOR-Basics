@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &645222354340533214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3300885577544494612}
+  m_Layer: 8
+  m_Name: FirePoint (1)
+  m_TagString: Player
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3300885577544494612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645222354340533214}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.89, y: -0.68, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7344694956457309496}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7344694955967391404
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,6 +376,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7344694956662382212}
+  - {fileID: 3300885577544494612}
   - {fileID: 7344694956276054319}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -451,6 +483,9 @@ MonoBehaviour:
   shotpoint: {fileID: 7344694956662382212}
   shot: {fileID: 9201448155147190814, guid: be8e77a3f19d09e429f98a88f02c6a0e, type: 3}
   timeBetweenShots: 0.2
+  powerUpShot: 0
+  powerUpTimeCounter: 0
+  POWERUPshotpoint: {fileID: 3300885577544494612}
 --- !u!58 &7344694956457309495
 CircleCollider2D:
   m_ObjectHideFlags: 0

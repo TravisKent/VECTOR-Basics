@@ -906,6 +906,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 791366021}
     m_Modifications:
     - target: {fileID: 3058828886206546113, guid: f7e318014333ff84a87de9fe768f519e, type: 3}
+      propertyPath: shot
+      value: 
+      objectReference: {fileID: 2126407235689794969, guid: 079de6f052309ae4b9ef7f9c39466f30, type: 3}
+    - target: {fileID: 3058828886206546113, guid: f7e318014333ff84a87de9fe768f519e, type: 3}
+      propertyPath: powerUpTimer
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3058828886206546113, guid: f7e318014333ff84a87de9fe768f519e, type: 3}
       propertyPath: topRightLimit
       value: 
       objectReference: {fileID: 866044643}
@@ -2294,6 +2302,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7344694956457309499, guid: d65ea6a3f950c6b478bfd05cd0d5e664, type: 3}
+      propertyPath: shot
+      value: 
+      objectReference: {fileID: 9201448155147190814, guid: dc258c12d401afd499180c029319b126, type: 3}
+    - target: {fileID: 7344694956457309499, guid: d65ea6a3f950c6b478bfd05cd0d5e664, type: 3}
       propertyPath: topRightLimit
       value: 
       objectReference: {fileID: 866044643}
@@ -2511,6 +2523,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &2557068362754771268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1734287135075509512, guid: cc74c3d1a7b49264998111ef86a86a5f, type: 3}
+      propertyPath: m_Name
+      value: CandyPowerUP
+      objectReference: {fileID: 0}
+    - target: {fileID: 3985138899037538418, guid: cc74c3d1a7b49264998111ef86a86a5f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 3985138899037538418, guid: cc74c3d1a7b49264998111ef86a86a5f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3985138899037538418, guid: cc74c3d1a7b49264998111ef86a86a5f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3985138899037538418, guid: cc74c3d1a7b49264998111ef86a86a5f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3985138899037538418, guid: cc74c3d1a7b49264998111ef86a86a5f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3985138899037538418, guid: cc74c3d1a7b49264998111ef86a86a5f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3985138899037538418, guid: cc74c3d1a7b49264998111ef86a86a5f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3985138899037538418, guid: cc74c3d1a7b49264998111ef86a86a5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3985138899037538418, guid: cc74c3d1a7b49264998111ef86a86a5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3985138899037538418, guid: cc74c3d1a7b49264998111ef86a86a5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cc74c3d1a7b49264998111ef86a86a5f, type: 3}
 --- !u!1001 &2914180905338983070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2703,17 +2772,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2005885919107135008, guid: 49660a49aa20a714eafadacc9087898f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 17.8
-      objectReference: {fileID: 0}
     - target: {fileID: 7630681743733221259, guid: 49660a49aa20a714eafadacc9087898f, type: 3}
       propertyPath: m_Name
       value: Boss Spawner
-      objectReference: {fileID: 0}
-    - target: {fileID: 7630681743733221259, guid: 49660a49aa20a714eafadacc9087898f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8253375707434558047, guid: 49660a49aa20a714eafadacc9087898f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2778,3 +2839,4 @@ SceneRoots:
   - {fileID: 791366021}
   - {fileID: 1706212635}
   - {fileID: 8659435918249588844}
+  - {fileID: 2557068362754771268}
