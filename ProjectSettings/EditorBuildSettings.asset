@@ -6,48 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_student name/mrK/MainMenuPTCfall2024_turet.unity
-    guid: f8e0a41c6ecde4649ba280db2ab9efeb
-  - enabled: 0
-    path: Assets/_student name/mrK/MainMenuPTCfall2024_chess.unity
-    guid: 615ac9cc2cf4d484a9cc511afc26d04a
+    path: Assets/_student name/mrK/MainMenuPTCfall2024_Halloween.unity
+    guid: 4140eb7d1558ea44083e8fae5d3c5086
   - enabled: 1
-    path: Assets/_student name/Lucy/Project 02/lucy_sabotage.unity
-    guid: 1f3e68ba19a6f1e43b7443159dc1427d
-  - enabled: 1
-    path: Assets/_student name/Ayden Hunter/Project 02/AH_Turret.unity
-    guid: b6406005edcafbd4aa08c4e4571d1062
-  - enabled: 1
-    path: Assets/_student name/mrK/Credits.unity
-    guid: 66b8063b0dd795d4f853712a1a7236fe
-  - enabled: 1
-    path: Assets/_student name/Elias/Project 2/Turrent Game.unity
-    guid: e7d477a7baad1844b83f886f7b4727a8
-  - enabled: 1
-    path: Assets/_student name/Derek/DP Project 02(sabotage game)/DP turret.unity
-    guid: f2e77cbd345859945ae51df8aee3eb10
-  - enabled: 1
-    path: Assets/_student name/Zach Monahan/Project 2/Zach turretold.unity
-    guid: ebf7abf3a102a874ab62fea91a01b443
-  - enabled: 1
-    path: Assets/_student name/Grace/Project 02/Grace_Turret.unity
-    guid: beef303c89e5bbb46b3165f63d0fd2b3
-  - enabled: 1
-    path: Assets/_student name/Elijah/Project 02/ES_turretgame.unity
-    guid: 12120fbb1a122f6468497e81aad33161
-  - enabled: 1
-    path: Assets/_student name/FabianArteaga/Project 02/New Scene.unity
-    guid: d23a315bae2cc2845b6de5fab7a74e90
-  - enabled: 1
-    path: Assets/_student name/Franz/Project 2/Franz_Turret.unity
-    guid: 2abdae39649ef2245b544f6cc2e8a1b7
-  - enabled: 1
-    path: Assets/_student name/Gabriel/Project 2/GHTurret.unity
-    guid: c7db3922190cc3448af5cb2998f987b2
-  - enabled: 1
-    path: Assets/_student name/Jonathan Rios/project 2/jonathan Turret.unity
-    guid: 915b3177cbd232b48b9f43777a80ec27
-  - enabled: 1
-    path: Assets/_student name/AidenSandstoe/Project 02/ASSabotageGame.unity
-    guid: 4469e4ae76e3f7741a4fe616b131cf11
+    path: Assets/_student name/Derek/Project 3/DPHallowen.unity
+    guid: 4ad67e9b223f7214cbe612482e84bda0
   m_configObjects: {}
