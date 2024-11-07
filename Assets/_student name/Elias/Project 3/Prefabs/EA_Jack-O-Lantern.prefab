@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300042, guid: 1b0e3df44e218d44aba7e2fa7ab61c64, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff024651f42393a4abd47ab62764dcc8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 4549393483955543213}
   - component: {fileID: 8610128929201390726}
   - component: {fileID: 3269373297089418307}
-  - component: {fileID: 458256590442221705}
+  - component: {fileID: 8905420681251063398}
   m_Layer: 0
   m_Name: EA_Jack-O-Lantern
   m_TagString: Halloween Object
@@ -167,7 +167,7 @@ CircleCollider2D:
   m_Offset: {x: 0.028735042, y: -0.07179618}
   serializedVersion: 2
   m_Radius: 0.55754936
---- !u!114 &458256590442221705
+--- !u!114 &8905420681251063398
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,5 +179,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa86c7ce009f2e64fb30b87011238aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 10
-  ObjectToSpawn: {fileID: 3255758224401142490, guid: f5bcd472d5c817047ab72dc159b986a1, type: 3}
+  points: 3
+  ObjectToSpawn: {fileID: 8677636452633693357, guid: 5d0e055dbfc3908489368560efc00b38, type: 3}
