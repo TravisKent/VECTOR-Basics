@@ -9,6 +9,72 @@ EditorBuildSettings:
     path: Assets/_student name/mrK/MainMenuPTCfall2024_Halloween.unity
     guid: 4140eb7d1558ea44083e8fae5d3c5086
   - enabled: 1
-    path: Assets/_student name/Derek/Project 3/DPHallowen.unity
+    path: Assets/_student name/Franz/Project 03/Franz_Halloween.unity
+    guid: e3881ecbefdbd294790b1390d99006bb
+  - enabled: 1
+    path: Assets/_student name/mrK/Halloween Game 2024/xtra 1.unity
+    guid: df0e5f3cf7957944b856a12672a017db
+  - enabled: 1
+    path: Assets/_student name/mrK/Halloween Game 2024/xtra 2.unity
+    guid: f8782f0ae94f16d43a1de11cbaf0cbc1
+  - enabled: 1
+    path: Assets/_student name/mrK/Halloween Game 2024/xtra 3.unity
+    guid: 6890aed85ff9641469c53fec252f1aa6
+  - enabled: 1
+    path: Assets/_student name/mrK/Halloween Game 2024/xtra 4.unity
+    guid: 46a6946dc89a26e4eaf4935660cf806d
+  - enabled: 1
+    path: Assets/_student name/mrK/Halloween Game 2024/xtra 5.unity
+    guid: ab9ef0398edc5664a801284ea4c7b01e
+  - enabled: 1
+    path: Assets/_student name/mrK/Halloween Game 2024/xtra 6.unity
+    guid: b258b6279c95cc846b26b195a249ba91
+  - enabled: 1
+    path: Assets/_student name/mrK/Halloween Game 2024/xtra 7.unity
+    guid: 0246082c212df7442a6fe46e9f9e8459
+  - enabled: 1
+    path: Assets/_student name/mrK/Halloween Game 2024/xtra 8.unity
+    guid: 88fc754521e71d44684517d549dbff71
+  - enabled: 1
+    path: Assets/_student name/mrK/Halloween Game 2024/xtra 9.unity
+    guid: 6ffa78a9fe8f9c045abf8b89c3438b89
+  - enabled: 1
+    path: Assets/_student name/mrK/Halloween Game 2024/xtra 10.unity
+    guid: 31c86589b1f9160479c570b516d05b81
+  - enabled: 1
+    path: Assets/_student name/mrK/Halloween Game 2024/xtra 11.unity
+    guid: 0d4d924b8ac21a44f85e4631f6e3dc77
+  - enabled: 1
+    path: Assets/_student name/mrK/Halloween Game 2024/xtra 12.unity
+    guid: aab5e9498a0b26b408d197e41c5b1d1d
+  - enabled: 1
+    path: Assets/_student name/Derek/Project 3/DPHallowen 22.unity
     guid: 4ad67e9b223f7214cbe612482e84bda0
+  - enabled: 1
+    path: Assets/_student name/Ayden Hunter/Project 03/Ayden Halloween Level.unity
+    guid: 5541b2b18be710b4bbeb2ab39d76a9f8
+  - enabled: 1
+    path: Assets/_student name/Edgar/Project 3/Edgar Halloween.unity
+    guid: 4f32cce2a386f2648a0feeacbceafeac
+  - enabled: 1
+    path: Assets/_student name/FabianArteaga/Project 3/Fabian Halloween.unity
+    guid: abae5ee4c7cc3b8429a271eb3b9e8640
+  - enabled: 1
+    path: Assets/_student name/Edgar/Project 3/Edgar Halloween #2.unity
+    guid: 6454d0966f39c5545882a53e3e59e9d3
+  - enabled: 1
+    path: Assets/_student name/Elijah/Project 03/EShalloween.unity
+    guid: a8642d18b8d788641b98fb9eb1d95ada
+  - enabled: 1
+    path: Assets/_student name/Jonathan Rios/Project 3/Jonathan Halloween.unity
+    guid: 47228afd352492b4f9172306a8c98a11
+  - enabled: 1
+    path: Assets/_student name/Lucy/Project 03/Lucy HW Level 2.unity
+    guid: 25a6f6d3850e5af49a17e2b585e83fb8
+  - enabled: 1
+    path: Assets/_student name/Gabriel/Project 3/GH Halloween Game.unity
+    guid: 8967ccd97c632594d889a3a1639851c1
+  - enabled: 1
+    path: Assets/_student name/Elias/Project 3/EA Halloween level.unity
+    guid: 2c4476919831ca041922b13200614671
   m_configObjects: {}
